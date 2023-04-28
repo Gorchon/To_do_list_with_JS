@@ -1,0 +1,119 @@
+:root{
+    --dark: #374151;
+    --darker:#1F2937;
+    --darkest:#111827;
+    --gray:#6b7280;
+    --light: #EEE;
+    ---pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+     min-height: 100vh;
+     background-color: var(--dark);
+     
+}
+
+
+
+/* remove indentation of list items */
+
+ul {
+    padding-left: 0;
+ }
+ 
+ /* remove traditional bullet from front of list items */
+ 
+
+ li {
+    font-size: 20px;
+    list-style-type: none;
+    background-color:var(--gray);
+    border: 1px solid var(--darkest);
+    padding: 10px 0px 10px 5px;
+ }
+ 
+ 
+ /* Step 5 below here */
+ 
+ .done {
+ background-color: aquamarine;
+ }
+ 
+ .remove{
+    background-color: crimson;
+ }
+ /* mark task as finished */
+ /* Step 6 below here */
+ 
+ li.finished {
+    color: var(--gray);
+    background-color:var(--darker);
+    text-decoration: line-through;
+ 
+ }
+ 
+ input[type="text"] {
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+ }
+ 
+ input[type="button"] {
+    font-size: 1.2em;
+    margin: -6px 4px 0px 0px;
+ }
+ 
+ #addButton {
+    padding: 10px;
+ }
+ 
+ /* Step 10 below here */
+ 
+ .aboutcolor {
+    background-color: gold;
+ 
+ }
+ 
+ /* Step 12 below here */
+ 
+ #divabout {
+    width: 300px;
+    font-size: 20px;
+    margin: 10px;
+ 
+ }
+
+ .transparent {
+    background-color: transparent;
+ }
+
+ #myHeader{
+    font-style: oblique;
+    color:var(--light);
+    background-color:darkslateblue;
+    text-align: center;
+ }
+
+ #button1{
+    background-color:aliceblue;
+ }
+
+ #button2{
+    background-color:aliceblue;
+ }
+
+ #addButton{
+    background-color:aliceblue;
+ }
+
+ #input{
+    background-color:aliceblue;
+ }
